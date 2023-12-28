@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface IProductRepository extends JpaRepository<Product, Long> {
-    @Query("SELECT new app.portfoliojofregf.vercel.productosserver.dto.ProductDTO(pro.name, pro.price) FROM Product pro WHERE pro.name IN :names")
+    @Query("SELECT new app.portfoliojofregf.vercel.productsservice.dto.ProductDto(pro.name, pro.price) FROM Product pro WHERE pro.name IN :names")
     List<ProductDto> findProductsByNames(List<String> names);
 }
