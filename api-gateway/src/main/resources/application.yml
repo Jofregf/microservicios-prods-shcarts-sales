@@ -11,7 +11,7 @@ spring:
           enabled: true
           lower-case-service-id: true
 
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://eureka-server:8761/eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka
