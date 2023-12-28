@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>app.portfolio-jofregf.vercel.</groupId>
 	<artifactId>eureka-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>eureka-server</name>
 	<description>Server Eureka</description>
 	<properties>
